@@ -1,0 +1,17 @@
+print("Greetings! Welcome to unit converter")
+
+while True:
+    print("Put a number of kilometers and you will found out how many miles is that.")
+
+    km = input("Kilometers: ")
+
+    km = float(km.replace(",","."))
+
+    miles = km * 0.621371192
+
+    print("{0} kilometers is {1} miles.".format(km, miles))
+
+    choice = input("Are you for another conversion? (yes or no): ")
+
+    if choice == "no":
+        break
