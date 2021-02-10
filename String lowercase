@@ -1,0 +1,7 @@
+# vpis: Today Is A Beutiful DAY
+# izpit: today is a beutiful day
+
+x = input("Enter 'Yes or No':")
+
+if (x.upper()):
+    print(x.lower())
